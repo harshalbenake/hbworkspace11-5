@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Whatsapp Broadcaster</string>
+    <string name="app_information">Whatsapp Broadcaster is a great tool for WhatsApp to send messages to multiple numbers without saving them.
+         \n \n
+How does it work? \n
+1. Create a list of numbers in excel sheet \n
+2. Provide the message or Image \n
+3. Grant the permission (if asked) \n
+4. Press below broadcast button. \n
+5. Sit and relax till your phone does the sending for you \n</string>
+
+</resources>

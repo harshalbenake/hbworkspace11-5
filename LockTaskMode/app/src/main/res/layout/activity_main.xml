@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_information"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_information"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/elite_technologies" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/iv_logo"
+        android:text="Powered By:-"
+        android:textColor="#024745"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/ib_startkioske"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv_information"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_kiosk"
+        android:text="Send" />
+
+</RelativeLayout>

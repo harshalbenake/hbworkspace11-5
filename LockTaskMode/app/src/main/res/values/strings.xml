@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Solitude Kiosk</string>
+    <string name="device_admin_enabled">Device Admin enabled</string>
+    <string name="device_admin_warning">Warning: Device Admin is going to be disabled.</string>
+    <string name="device_admin_disabled">Device Admin disabled</string>
+    <string name="kiosk_mode_enabled">Kiosk Mode enabled</string>
+    <string name="kiosk_mode_disabled">Kiosk Mode disabled</string>
+    <string name="enter_kiosk_mode">Enter Kiosk Mode</string>
+    <string name="exit_kiosk_mode">Exit Kiosk Mode</string>
+    <string name="kiosk_not_permitted">Kiosk Mode not permitted</string>
+    <string name="not_device_admin">This app is not a device admin!</string>
+    <string name="not_device_owner">This app is not the device owner!</string>
+    <string name="check_update">Check for Update</string>
+
+
+
+    <string name="app_information">Solitude Kiosk is a great tool build for corporate-owned, single-use (COSU) devices to provide complete isolation.
+         \n \n
+How does it work? \n
+1. Start application \n
+2. Provide the password for admin \n
+3. Grant the permission (if asked) \n
+4. Press below kiosk start button. \n
+5. Sit and relax till your phone does the restriction for you \n</string>
+</resources>
